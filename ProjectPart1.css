@@ -1,0 +1,361 @@
+@charset "utf-8";
+
+/* our color pallete is at
+https://coolors.co/export/pdf/f7c59f-767b91-c7ccdb-e1e5ee-382633 */
+
+html{
+    font-family: Tahoma, Geneva, sans-serif;
+    align-content: stretch;
+    background-color: #000000;
+	/*background-image: url(images.gif);
+	background-repeat: repeat-x | repeat-y*/
+    color:#382633;
+}
+
+.hero-content {
+  position: absolute;
+  color: #FFF;
+  left: 40px;
+  bottom: 180px;
+}
+
+/*----------*/
+header{
+    background-image: url(header.png);
+    background-size:cover;
+    box-shadow: 11px 5px 25px 17px #1f1f1f;
+    height: 180px;
+    width: auto;
+    color:white;
+}
+
+header > img#image {
+    margin-top: 0px;
+    margin-left: 15px;
+    float: left;
+}
+
+header > h2#websiteName {
+    margin-top: 0px;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 300%;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+header > h4#tagLine {
+    
+    font-size: 116%;
+    text-shadow: 5px, 5px, #000000;
+    text-align: center;
+    margin-top: -50px;
+    line-height: 30pt;
+
+}
+
+/*----------*/
+.topNav a.current {
+    color: darkblue;
+}
+
+.topNav {
+  width: 790px;
+  height: 35px;
+  font-size: 15px;
+  text-align: left;
+  background-color: white;
+    margin-top: -15px;
+}
+
+.categories h2{
+	text-align: center;
+}
+
+#globeframe{
+    text-align: center;
+    background-color: #767B91;
+    height: 700px;
+    width: auto;
+    margin: 40px;
+    z-index = 0;
+    
+}
+
+#globeframe h2{
+    color: white;
+    font-size: 20pt;
+}
+
+#globeframe pre{
+    color: white;
+    
+}
+
+.form{
+    display: block;
+}
+
+.Forms{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 650px;
+    
+}
+
+
+.topNav li {
+    display: inline-block;
+    padding: 0px 12px;
+    margin-top: -12px;
+    
+}
+
+.topNav a {
+    padding: 10px 35px; 
+    font-weight: bold;
+    text-decoration: none;
+    color: #382633;
+    float: left;
+}
+.topNav a:hover {
+    background-color: lightgray
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------*/
+body {
+    width: 80%;
+    background: #bfbfbf;
+    border: 0px solid #767B91;
+    box-shadow: 0px 0px 25px 17px #6f6f6f;
+    
+    margin: auto;
+}
+
+body > h1 {
+    font-size: 150%;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+body > h2 {
+    font-size: 125%;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+	text-align: center;
+}
+
+body > h3 {
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-left: 100px;
+}
+
+#deranged a{
+    color: orange;
+    font-weight: bold;
+    font-size: 100%;
+    text-decoration: underline;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+}
+
+table caption {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+th, td {
+    padding: .2em .7em;
+    font-size: 18px;
+}
+
+td a {
+    text-decoration: underline;
+    color: black;
+}
+
+.sideHeads {
+    text-align: left;
+    font-weight: bold;
+}
+
+.topHeads {
+    font-weight: bold;
+    text-align: center;
+    color: darkgray;
+}
+
+#emailform {
+    margin-left: 15px;
+}
+
+label {
+    float: left;
+    width 8em;
+    text-align: center;
+    display: block;
+    margin-right: -4em;
+    
+}
+
+input {
+    width: 20em;
+    margin-left: 6em;
+    text-align: center;
+}
+
+#submit {
+    color: black;
+    background-color: orange;
+    border: 2px solid black;
+    width: 10em;
+    margin-left: 4.5em;
+}
+
+/*----------*/
+footer
+{
+    border-top: 5px solid lightblue;
+    font-size: 75%;
+    text-align: center;
+    background: white;
+    padding: 15px;
+    clear: both;
+}
+
+h4 {
+	;
+}
+
+footer h2 {
+   font-weight: bold;
+}
+
+#zip {
+    padding: 10px 4px;
+    margin-left: 10px;
+    color: black;
+}
+
+h1#enterInfo {
+    text-align: center;
+	font-size: 24pt;
+    color: #382633;
+}
+
+label#enterInfo{
+    font-size: 15px;
+    
+}
+
+#cuisine {
+    padding: 10px 70px;
+    margin-left: 0px;
+}
+
+
+/*
+#sideNav a:link, #sideNav a:visited {
+   color: black;
+}
+
+nav.sideNav a:hover, nav.sideNav a:active {
+    color: darkgreen;
+    text-decoration: underline;
+}
+*/
+
+
+ /*Horizontal Navigation Sty
+les */
+nav.topNav{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    background-color: #382633
+}
+
+nav.topNav a {
+   background-color: ;
+   font-size: 1.4em;
+   line-height: 1.8em;
+   text-align: center;
+    display: block;
+}  
+
+nav.topNav a:link, nav.topNav a:visited {
+   color: white;
+}
+
+nav.topNav a:hover, nav.topNav a:active {
+   background-color: darkgray;
+}
+
+nav.topNav li{
+
+}
+/* Stuff to make the globes work */
+#fakediv{
+    height: 700px;
+    width: auto;
+    visibility:hidden;
+    z-index = 1
+}
+#fakemap{
+    float:center;
+    height: 1px;
+    width: auto;
+    margin: 1px;
+    visibility:hidden;
+}
+        
+#earth_div{
+    float:center;
+    height: 700px;
+    width: auto;
+    margin: 40px;
+    z-index = 0
+}
+
+/* formatting for text inside the popup in the globe */
+#address{
+    font-size: 14px;
+}
+
+#phone{
+    font-size: 20px;
+}
+
+#website{
+    color: blue;
+    font-style: italic;
+}
+
+#restname{
+    font-size: 44px;
+}
+#phoneicon{
+    max-height: 20px;
+    max-width: 20px;
+}
